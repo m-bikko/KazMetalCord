@@ -1,0 +1,374 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat); /* TildaSans-Regular */
+@font-face {
+    font-family: 'Tilda Sans Regular';
+    src: url('TildaSans.07Web2/TildaSans-Regular/TildaSans-Regular.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-Regular/TildaSans-Regular.woff') format('woff'); /* Specify the path to your .woff font file */
+}
+
+/* TildaSans-Bold */
+@font-face {
+    font-family: 'Tilda Sans Bold';
+    src: url('TildaSans.07Web2/TildaSans-Bold/TildaSans-Bold.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-Bold/TildaSans-Bold.woff') format('woff'); /* Specify the path to your .woff font file */
+    font-weight: bold;
+}
+
+/* TildaSans-Semibold */
+@font-face {
+    font-family: 'Tilda Sans Semibold';
+    src: url('TildaSans.07Web2/TildaSans-Semibold/TildaSans-Semibold.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-Semibold/TildaSans-Semibold.woff') format('woff'); /* Specify the path to your .woff font file */
+    font-weight: 600; /* This is typically considered semi-bold */
+}
+
+/* TildaSans-Medium */
+@font-face {
+    font-family: 'Tilda Sans Medium';
+    src: url('TildaSans.07Web2/TildaSans-Medium/TildaSans-Medium.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-Medium/TildaSans-Medium.woff') format('woff'); /* Specify the path to your .woff font file */
+    font-weight: 500;
+}
+
+/* TildaSans-Light */
+@font-face {
+    font-family: 'Tilda Sans Light';
+    src: url('TildaSans.07Web2/TildaSans-Light/TildaSans-Light.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-Light/TildaSans-Light.woff') format('woff'); /* Specify the path to your .woff font file */
+    font-weight: 300;
+}
+
+/* TildaSans-ExtraBold */
+@font-face {
+    font-family: 'Tilda Sans ExtraBold';
+    src: url('TildaSans.07Web2/TildaSans-ExtraBold/TildaSans-ExtraBold.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-ExtraBold/TildaSans-ExtraBold.woff') format('woff'); /* Specify the path to your .woff font file */
+    font-weight: 800;
+}
+
+/* TildaSans-Black */
+@font-face {
+    font-family: 'Tilda Sans Black';
+    src: url('TildaSans.07Web2/TildaSans-Black/TildaSans-Black.woff2') format('woff2'), /* Specify the path to your .woff2 font file */
+         url('TildaSans.07Web2/TildaSans-Black/TildaSans-Black.woff') format('woff'); /* Specify the path to your .woff font file */
+    font-weight: 900;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Tilda Sans Regular', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.wrapper{
+    margin: 0 5%;
+}
+nav{
+    margin: 40px 80px 0 80px;
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 30px;
+}
+.search{
+    height: 30px;
+    width: 150px;
+}
+.nav-top-btn{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 8px;
+    color: #6D2CC1;
+    font-size: 22px;
+    border: 1px #6D2CC1 solid;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nav-top-btn:hover{
+    color: #faf8f8;
+    background-color: #6D2CC1;
+}
+.nav-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.nav-bottom > div{
+    font-size: 22px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nav-bottom > div:hover{
+    box-shadow: inset 100px 0 100px 0 #6D2CC1;
+    color: white;
+}
+.intro-img{
+    margin-top: 50px;
+    width: 100%;
+    height: 650px; /* Set the height as needed */
+    background-image: url('photos/intro-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*border: black 0.2px solid;*/
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+}
+.intro-img-divs{
+    margin: 0 0 40px 80px;
+    width: 100%;
+    margin-right: 120px;
+}
+.intro-img-first-txt{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 25px;
+
+}
+.intro-img-second-txt{
+    color: aliceblue;
+    font-size: 2.2em;
+    font-weight: bold;
+    width: 70%;
+    margin-bottom: 35px;
+}
+.catalog{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #6D2CC1;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+:root {
+    --hint: #faf8f8;
+    --turqoise: #17ead9;
+    --cornflower-blue: #6078ea;
+    --tundora: #4b4848;
+    --electric-violet: #7c26f8;
+    --snappy: cubic-bezier(0.694, 0.048, 0.335, 1);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes color-1 {
+    0% {
+        background-color: #eb73b9;
+    }
+    100% {
+        background-color: #17ead9;
+    }
+}
+
+::selection {
+    background: var(--cornflower-blue);
+    color: white;
+    text-shadow: none;
+}
+
+
+
+.field-container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 330px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.icons-container {
+    position: absolute;
+    top: 11px;
+    right: -25px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.icon-close {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 75%;
+    height: 75%;
+    opacity: 0;
+    cursor: pointer;
+    transform: translateX(-200%);
+    border-radius: 50%;
+    transition: opacity 0.25s ease, transform 0.43s var(--snappy);
+}
+
+.icon-close:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border: 2px solid transparent;
+    border-top-color: var(--cornflower-blue);
+    border-left-color: var(--cornflower-blue);
+    border-bottom-color: var(--cornflower-blue);
+    transition: opacity 0.2s ease;
+}
+
+.x-up,
+.x-down {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.x-up:before,
+.x-up:after,
+.x-down:before,
+.x-down:after {
+    content: "";
+    position: absolute;
+    background-color: var(--cornflower-blue);
+}
+
+.x-up:before,
+.x-down:before {
+    width: 50%;
+    height: 2px;
+}
+
+.x-up:after,
+.x-down:after {
+    width: 50%;
+    height: 2px;
+}
+
+.x-up:before {
+    bottom: 2px;
+    left: 3px;
+    transform: rotate(45deg);
+}
+
+.x-up:after {
+    bottom: 2px;
+    right: 0px;
+    transform: rotate(-45deg);
+}
+
+.x-down:before {
+    top: 5px;
+    left: 4px;
+    transform: rotate(-45deg);
+}
+
+.x-down:after {
+    top: 5px;
+    right: 1px;
+    transform: rotate(45deg);
+}
+
+.icon-close.is-type:before {
+    opacity: 1;
+    animation: spin 0.85s infinite;
+}
+
+.icon-close.is-type .x-up:before,
+.icon-close.is-type .x-up:after {
+    animation: color-1 0.85s infinite;
+}
+
+.icon-close.is-type .x-up:after {
+    animation-delay: 0.3s;
+}
+
+.icon-close.is-type .x-down:before,
+.icon-close.is-type .x-down:after {
+    animation: color-1 0.85s infinite;
+}
+
+.icon-close.is-type .x-down:before {
+    animation-delay: 0.2s;
+}
+
+.icon-close.is-type .x-down:after {
+    animation-delay: 0.1s;
+}
+
+.icon-search {
+    position: relative;
+    top: 5px;
+    left: 8px;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    border-radius: 50%;
+    border: 3px solid mix(var(--cornflower-blue), white, 35%);
+}
+
+.icon-search:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    right: -2px;
+    width: 4px;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    height: 10px;
+    background-color: mix(var(--cornflower-blue), white, 35%);
+}
+
+.field {
+    border: 1px #D5D5D5 solid;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px 5px 20px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0px 8px 15px rgba(var(--tundora), 0.1);
+    transition: all 0.4s ease;
+}
+
+.field:focus {
+    outline: none;
+    box-shadow: 0px 9px 20px rgba(var(--tundora), 0.3);
+}
+
+.field:focus + .icons-container .icon-close {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.field:focus + .icons-container .icon-search {
+    opacity: 0;
+    transform: translateX(200%);
+}
+
