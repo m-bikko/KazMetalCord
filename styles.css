@@ -200,7 +200,7 @@ nav{
     padding: 0;
     margin: 0;
     border: 0;
-    width: 330px;
+    width: 150px;
     height: 40px;
     border-radius: 8px;
 
@@ -209,7 +209,7 @@ nav{
 .icons-container {
     position: absolute;
     top: 11px;
-    right: -25px;
+    right: 5px;
     width: 35px;
     height: 35px;
     overflow: hidden;
@@ -348,7 +348,7 @@ nav{
 
 .field {
     border: 1px #D5D5D5 solid;
-    width: 100%;
+    width: 150px;
     height: 100%;
     padding: 5px 10px 5px 20px;
     background: white;
