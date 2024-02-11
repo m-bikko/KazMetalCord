@@ -545,12 +545,7 @@ nav{
     color: #faf8f8;
     font-size: 22px;
     border: 1px #6D2CC1 solid;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     margin-right: 45px;
-}
-.order-section-send-btn:hover{
-    color: #6d2cc1;
-    background-color: #faf8f8;
 }
 .order-section-send-policy{
     font-size: 20px;
