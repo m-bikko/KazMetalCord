@@ -465,10 +465,102 @@ nav{
     width: 14px;
     height: 14px;
 }
-
-
-
-
+.order-section{
+    max-width: 100%;
+    margin-top: 25px;
+    background-color: #E8F4FF;
+    border-radius: 19px;
+}
+.order-section-wrapper{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.order-section-main-txt{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 55px;
+}
+.order-section-description-txt{
+    max-width: 40%;
+    font-size: 1.5rem;
+    margin-bottom: 55px;
+    font-weight: 400;
+}
+.order-section-inputs{
+    display: flex;
+    margin-bottom: 15px;
+}
+.order-section-inputs input:first-child {
+    margin-left: 0;
+}
+.order-input{
+    margin: 15px;
+    padding: 5px 25px;
+    font-size: 24px;
+    border-radius: 19px;
+    height: 80px;
+    width: calc(33% - 25px);
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    border: #F0F0F0 1px solid;
+}
+.order-section-take-file{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #faf8f8;
+    color: #6D2CC1;
+    font-size: 22px;
+    border: 1px #6D2CC1 solid;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    margin-bottom: 16px;
+}
+.order-section-take-file:hover{
+    color: #faf8f8;
+    background-color: #6D2CC1;
+}
+.order-section-submit-info{
+    width: 40%;
+    color: #AEAEAE;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.order-section-send-btn-group{
+    display: flex;
+    align-items: center;
+}
+.order-section-send-btn{
+    max-width: 350px;
+    width: 40%;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #6D2CC1;
+    color: #faf8f8;
+    font-size: 22px;
+    border: 1px #6D2CC1 solid;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    margin-right: 45px;
+}
+.order-section-send-btn:hover{
+    color: #6d2cc1;
+    background-color: #faf8f8;
+}
+.order-section-send-policy{
+    font-size: 20px;
+    color: #7D7D7D;
+}
+.order-section-send-policy .policy-link {
+    text-decoration: underline; /* Underline the link */
+    color: blue; /* Set link color */
+    /* Add any other styles you need */
+}
 
 
 
