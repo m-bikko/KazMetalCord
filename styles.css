@@ -147,7 +147,7 @@ nav{
     width: 70%;
     margin-bottom: 35px;
 }
-.catalog{
+.catalog-btn{
     width: 200px;
     height: 50px;
     color: white;
@@ -431,3 +431,44 @@ nav{
 .about-benefits-body-container-img{
     width: 24%;
 }
+.catalog{
+    margin-top: 25px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.products-container{
+    width: 23%;
+    height: 250px;
+    background-image: url("/photos/products/КабелиСиловые.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+    display: flex;
+    align-items: end;
+    border-radius: 9px;
+}
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin: 10%;
+}
+.product-name{
+    font-size: 20px;
+}
+.goto-img{
+    width: 14px;
+    height: 14px;
+}
+
+
+
+
+
+
+
