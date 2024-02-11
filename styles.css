@@ -372,7 +372,7 @@ nav{
     transform: translateX(200%);
 }
 
-.m-lr50{
+.m-lr80{
     margin: 0 80px;
 }
 
@@ -561,6 +561,13 @@ nav{
     color: blue; /* Set link color */
     /* Add any other styles you need */
 }
+footer{
+    margin-top: 25px;
+    background-color: #6d2cc1;
+    padding: 85px;
+}
 
-
+.m-lr80-1{
+    margin: 0 calc(80px + 1%);
+}
 
