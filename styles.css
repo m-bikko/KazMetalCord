@@ -669,8 +669,9 @@ footer > div > *{
         flex-direction: column;
     }
     .order-section-inputs > input {
+        font-size: 12px;
         max-width: 100%;
-        width: 90%;
+        width: 80%;
         margin: 15px 0;
     }
     .order-section-description-txt{
@@ -691,6 +692,8 @@ footer > div > *{
     }
     .order-section-send-btn{
         margin-bottom: 20px;
+        min-width: 250px;
+        margin-right: 0;
     }
     .m-lr80-1{
         margin: 0 calc(30px + 1%);
@@ -742,6 +745,18 @@ footer > div > *{
         height: 22px!important;;
     }
 }
+@media only screen and (max-width: 500px) {
+    nav {
+        margin: 40px 20px 0 20px;
+    }
+}
+.products-container > div{
+    width: 80%;
+    align-items: center;
+}
+.product{
+    width: 100%;
+}
 .responsive-nav{
     max-width: 100%;
     display: flex;
@@ -771,3 +786,4 @@ footer > div > *{
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
 }
+
