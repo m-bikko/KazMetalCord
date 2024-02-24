@@ -12,16 +12,72 @@
 </head>
 <body>
     <nav class="responsive-nav">
-        <div class=" container" onclick="transform(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <div id="responsive-nav-upper" class="responsive-nav-upper">
+            <div class="container" onclick="myFunction(this)">
+                <div id="bar1" class="bar1"></div>
+                <div id="bar2" class="bar2"></div>
+                <div id="bar3" class="bar3"></div>
+            </div>
+            <img id="responsive-nav-upper-logo" class="logo" class="" src="./photos/img.png" alt="logo">
+            <img id="responsive-nav-upper-search" class="search-res" src="./photos/search.png" alt="">
         </div>
-        <img class="logo" class="" src="./photos/img.png" alt="logo">
-        <div>
-            search
+        <div id="responsive-nav-under" class="responsive-nav-under hide">
+            <div class="">
+                Главная
+            </div>
+            <div class="dropdown">
+                <button class="responsive-dropbtn" onclick="dropContent()">Каталог
+                    <img id="responsive-dropbtn-img" class="responsive-dropdown-svg" src="./photos/drop-down-white.png" alt="">
+                </button>
+                <div id="responsive-nav-drop" class="hide dropbtn-dropped">
+                    <a href="#">Кабели силовые</a>
+                    <a href="#">Кабели контрольные</a>
+                    <a href="#">Кабели монтажные</a>
+                    <a href="#">Кабели передачи данных</a>
+                    <a href="#">Радиочастотные коаксиальные кабели</a>
+                    <a href="#">Провода установочные (монтажные)</a>
+                    <a href="#">Провода обмоточные</a>
+                    <a href="#">Соединительные провода</a>
+                    <a href="#">Провода водопогружные</a>
+                    <a href="#">Провода силовые</a>
+                    <a href="#">Провода воздушных линий электропередач</a>
+                    <a href="#">Провода бытовые</a>
+                    <a href="#">Провода бортовые авиационные</a>
+                    <a href="#">Трансформаторы</a>
+                    <a href="#">Освещение</a>
+                    <a href="#">Гофра</a>
+                </div>
+            </div>
+            <div class="">
+                Условия доставки
+            </div>
+            <div class="">
+                Как купить
+            </div>
+            <div class="">
+                Контакты
+            </div>
+            <div>
+                <div>
+                    г. Алматы, Жибек Жолы 135
+                </div>
+                <div>
+                    + 7 (727) 312-26-02
+                </div>
+                <div>
+                    zakaz@cablelines.kz
+                </div>
+            </div>
+            <div>
+                <div class="responsive-nav-top-btn">
+                    Обратный звонок
+                </div>
+            </div>
+
         </div>
     </nav>
+
+
     <nav class="desktop-nav wrapper mt-30">
         <div class="nav-top">
             <img class="logo" class="" src="./photos/img.png" alt="logo">
@@ -53,19 +109,40 @@
             </div>
         </div>
         <div class="nav-bottom">
-            <div>
+            <div class="hover-underline-animation">
                 Главная
             </div>
-            <div>
-                Каталог
+            <div class="dropdown">
+                <div class="hover-underline-animation dropbtn">Каталог
+                    <img class="dropdown-svg" src="./photos/drop-down.svg" alt="">
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Кабели силовые</a>
+                    <a href="#">Кабели контрольные</a>
+                    <a href="#">Кабели монтажные</a>
+                    <a href="#">Кабели передачи данных</a>
+                    <a href="#">Радиочастотные коаксиальные кабели</a>
+                    <a href="#">Провода установочные (монтажные)</a>
+                    <a href="#">Провода обмоточные</a>
+                    <a href="#">Соединительные провода</a>
+                    <a href="#">Провода водопогружные</a>
+                    <a href="#">Провода силовые</a>
+                    <a href="#">Провода воздушных линий электропередач</a>
+                    <a href="#">Провода бытовые</a>
+                    <a href="#">Провода бортовые авиационные</a>
+                    <a href="#">Трансформаторы</a>
+                    <a href="#">Освещение</a>
+                    <a href="#">Гофра</a>
+                </div>
             </div>
-            <div>
+            <div class="hover-underline-animation">
                 Условия доставки
             </div>
-            <div>
+            <div class="hover-underline-animation">
                 Как купить
             </div>
-            <div>
+            <div class="hover-underline-animation">
                 Контакты
             </div>
         </div>
